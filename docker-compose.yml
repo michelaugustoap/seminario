@@ -2,7 +2,7 @@ version: '3.5'
 
 services: 
   nodejs: 
-    image: node:latest
+    image: node:8
     container_name: api
     volumes:
       - ./api:/api
